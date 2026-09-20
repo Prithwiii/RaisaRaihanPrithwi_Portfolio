@@ -1,8 +1,22 @@
-# Raisa Raihan Prithwi Portfolio
+# Portfolio
 
-A personal portfolio built with React and Vite for showcasing academic background, projects, skills, and certificates.
+This is a personal portfolio website built to present my academic background, projects, interests, and technical work in a clean and professional way.
 
-## Tech stack
+It reflects my work in computer science and economics, with a focus on data, research, web development, and problem-solving.
+
+## What the app represents
+
+The portfolio showcases:
+
+- my education and academic profile
+- the projects I have worked on
+- my skills and learning interests
+- certificates and recognition
+- links to my GitHub and contact details
+
+The site is designed to look modern and minimal, while still being easy to update.
+
+## Tech used
 
 - React
 - Vite
@@ -11,39 +25,7 @@ A personal portfolio built with React and Vite for showcasing academic backgroun
 - Framer Motion
 - Lucide React
 
-## Run locally
 
-```bash
-npm install
-npm run dev -- --host 0.0.0.0
-```
 
-## Build
 
-```bash
-npm run build
-```
 
-## Update content
-
-Main content is stored in:
-
-- `src/data/portfolioData.js`
-
-You can update:
-
-- profile details
-- nav links
-- projects
-- skills
-- certificates
-- contact info
-
-## CV and media
-
-- Add your resume in `public/resume.pdf`
-- Add certificate images in `public/certificates/`
-
-## Deploy
-
-Push to GitHub and import the repo into Vercel using the default Vite settings.
