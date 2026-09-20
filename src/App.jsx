@@ -3,6 +3,7 @@ import Hero from './components/Hero'
 import About from './components/About'
 import Education from './components/Education'
 import Skills from './components/Skills'
+import Certificates from './components/Certificates'
 import Projects from './components/Projects'
 import Research from './components/Research'
 import CurrentlyLearning from './components/CurrentlyLearning'
@@ -13,6 +14,7 @@ import {
   navItems,
   socialLinks,
   skills,
+  certificates,
   projects,
   projectFilters,
   exploringTopics,
@@ -31,6 +33,7 @@ function App() {
       <Projects projects={projects} projectFilters={projectFilters} />
       <Research exploringTopics={exploringTopics} />
       <CurrentlyLearning learningItems={learningItems} />
+      <Certificates certificates={certificates} />
       <Contact socialLinks={socialLinks} contactDetails={contactDetails} />
       <Footer profile={profile} socialLinks={socialLinks} />
     </div>

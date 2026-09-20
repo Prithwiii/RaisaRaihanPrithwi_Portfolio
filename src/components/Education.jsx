@@ -47,7 +47,7 @@ function Education({ _profile }) {
                 </div>
                 <div>
                   <p className="text-sm text-slate-600">Status</p>
-                  <p className="mt-1 text-xl font-medium text-slate-900">Third-year undergraduate</p>
+                  <p className="mt-1 text-xl font-medium text-slate-900">Fourth-year undergraduate</p>
                 </div>
               </div>
             </div>

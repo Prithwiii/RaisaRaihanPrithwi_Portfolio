@@ -86,14 +86,6 @@ function Projects({ projects, projectFilters }) {
                     <Globe size={16} />
                     GitHub
                   </a>
-                  <a
-                    href={project.demoUrl}
-                    className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-[#2563A6] to-[#8FAF9A] px-4 py-2 text-sm font-medium text-white shadow-sm transition hover:translate-y-[-1px] hover:shadow-md"
-                  >
-                    <Link2 size={16} />
-                    Live Demo
-                    <ArrowUpRight size={15} />
-                  </a>
                 </div>
               </motion.article>
             ))}

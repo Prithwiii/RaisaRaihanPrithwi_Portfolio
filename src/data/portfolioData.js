@@ -22,8 +22,9 @@ export const profile = {
 
 export const navItems = [
   { label: 'About', href: '#about' },
-  { label: 'Projects', href: '#projects' },
   { label: 'Skills', href: '#skills' },
+  { label: 'Certificates', href: '#certificates' },
+  { label: 'Projects', href: '#projects' },
   { label: 'Contact', href: '#contact' },
 ]
 
@@ -56,6 +57,30 @@ export const skills = [
   },
 ]
 
+export const certificates = [
+  {
+    title: 'Campus Ambassador Program',
+    issuer: 'Interactive Cares',
+    year: 'Completed',
+    summary: 'Completed the program with strong leadership, communication, and community engagement skills.',
+    image: '/certificates/certificate-1.jpg',
+  },
+  {
+    title: 'Supervised Learning with scikit-learn',
+    issuer: 'DataCamp',
+    year: 'June 2025',
+    summary: 'Completed a hands-on course focused on supervised machine learning techniques and practical model building.',
+    image: '/certificates/certificate-2.jpg',
+  },
+  {
+    title: 'Project Srijon',
+    issuer: 'BRAC University',
+    year: 'Summer 2024',
+    summary: 'Completed a civic engagement initiative supporting community-focused problem solving and local impact work.',
+    image: '/certificates/certificate-3.jpg',
+  },
+]
+
 export const projects = [
   {
     id: '01',
@@ -64,7 +89,7 @@ export const projects = [
     description:
       'A MERN-based residential community management platform designed to connect residents, staff, and committee members while supporting proposals, digital voting, notices, complaints, and community services.',
     technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'JWT', 'MERN'],
-    githubUrl: '#',
+    githubUrl: 'https://github.com/Prithwiii/Neer',
     demoUrl: '#',
   },
   {
@@ -74,7 +99,7 @@ export const projects = [
     description:
       'A machine learning and exploratory data analysis project involving data preprocessing, missing-value handling, feature scaling, classification models, and clustering analysis.',
     technologies: ['Python', 'Pandas', 'NumPy', 'Scikit-learn', 'Matplotlib', 'Machine Learning'],
-    githubUrl: '#',
+    githubUrl: 'https://github.com/Prithwiii/heart-disease-data-analysis',
     demoUrl: '#',
   },
   {
@@ -102,8 +127,20 @@ export const projects = [
 
 export const exploringTopics = [
   {
+    title: 'Cybersecurity Basics',
+    description: 'Understanding core security principles, threat awareness, and safe digital systems.',
+  },
+  {
+    title: 'AI in Economics',
+    description: 'Exploring how machine learning and AI can support economic forecasting and decision-making.',
+  },
+  {
     title: 'Data & Economic Analysis',
     description: 'How data can support economic and organizational decision making.',
+  },
+  {
+    title: 'Responsible Tech',
+    description: 'Balancing innovation, trust, and ethical impact in technology-driven systems.',
   },
 
 ]
