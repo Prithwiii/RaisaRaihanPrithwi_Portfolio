@@ -1,5 +1,6 @@
 export const profile = {
   name: 'Raisa Raihan Prithwi',
+  shortName: 'Raisa Raihan',
   university: 'BRAC University',
   degree: 'BSc in Computer Science and Engineering',
   status: 'Fourth-year undergraduate student',
@@ -76,7 +77,26 @@ export const projects = [
     githubUrl: '#',
     demoUrl: '#',
   },
- 
+  {
+    id: '03',
+    category: 'WEB',
+    title: 'Neighbourly',
+    description:
+      'A community-driven platform connecting neighbors around local needs, recommendations, and support through a simple and practical web experience.',
+    technologies: ['React', 'JavaScript', 'UI/UX', 'Web App', 'Community'],
+    githubUrl: 'https://github.com/Prithwiii/Neighbourly',
+    demoUrl: 'https://github.com/Prithwiii/Neighbourly',
+  },
+  {
+    id: '04',
+    category: 'WEB',
+    title: 'Whisker-Watch',
+    description:
+      'A pet-focused project designed to help monitor and engage with companion care through a modern dashboard and intuitive user experience.',
+    technologies: ['React', 'JavaScript', 'Dashboard', 'Pet Care', 'Web App'],
+    githubUrl: 'https://github.com/Prithwiii/Whisker-Watch',
+    demoUrl: 'https://github.com/Prithwiii/Whisker-Watch',
+  },
 
 ]
 

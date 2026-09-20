@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { AnimatePresence, motion } from 'framer-motion'
 import { ArrowRight, BriefcaseBusiness, Globe, Mail, Menu, X } from 'lucide-react'
 
-function Navbar({ navItems, socialLinks }) {
+function Navbar({ navItems, socialLinks, profile }) {
   const [isOpen, setIsOpen] = useState(false)
 
   const menuLinks = [
@@ -16,7 +16,7 @@ function Navbar({ navItems, socialLinks }) {
     <header className="sticky top-0 z-50 border-b border-slate-200/80 bg-white/85 backdrop-blur-sm">
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8" aria-label="Main navigation">
         <a href="#top" className="text-lg font-semibold tracking-tight text-slate-900 transition hover:text-blue-700">
-          Raisa Raihan
+          {profile.name}
         </a>
 
         <div className="hidden items-center gap-8 md:flex">

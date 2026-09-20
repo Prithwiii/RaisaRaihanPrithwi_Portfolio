@@ -23,7 +23,7 @@ import {
 function App() {
   return (
     <div className="min-h-screen bg-[#F7FAF8] text-slate-800">
-      <Navbar navItems={navItems} socialLinks={socialLinks} />
+      <Navbar navItems={navItems} socialLinks={socialLinks} profile={profile} />
       <Hero _profile={profile} socialLinks={socialLinks} />
       <About _profile={profile} />
       <Education _profile={profile} />
