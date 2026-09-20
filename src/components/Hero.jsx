@@ -22,7 +22,7 @@ function Hero({ _profile, socialLinks }) {
           </h1>
 
           <p className="mt-6 max-w-xl text-base leading-8 text-slate-700 sm:text-lg">
-            I&apos;m a third-year CSE student at BRAC University with a minor in Economics, exploring how
+            I&apos;m a fourth-year CSE student at BRAC University with a minor in Economics, exploring how
             data and technology can be used to understand problems, uncover insights, and build meaningful
             solutions.
           </p>
