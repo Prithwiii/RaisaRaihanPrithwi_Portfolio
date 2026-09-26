@@ -56,6 +56,12 @@ function Projects({ projects, projectFilters }) {
               >
                 <div className="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-[#2563A6] to-[#8FAF9A] opacity-80 transition-opacity duration-300 group-hover:opacity-100" />
 
+                {project.imageUrl && (
+                  <div className="-mx-6 -mt-6 mb-6 overflow-hidden border-b border-slate-200">
+                    <img src={project.imageUrl} alt={project.imageAlt} className="aspect-video w-full object-cover" />
+                  </div>
+                )}
+
                 <div className="flex items-start justify-between gap-4">
                   <div>
                     <div className="text-[11px] font-semibold uppercase tracking-[0.22em] text-slate-500">Project {project.id}</div>
@@ -78,13 +84,26 @@ function Projects({ projects, projectFilters }) {
                   ))}
                 </div>
 
+                {project.analysisAreas && (
+                  <ul className="mt-5 grid gap-2 text-sm leading-6 text-slate-700 sm:grid-cols-2">
+                    {project.analysisAreas.map((area) => (
+                      <li key={area} className="flex gap-2">
+                        <span aria-hidden="true" className="text-[#2563A6]">•</span>
+                        <span>{area}</span>
+                      </li>
+                    ))}
+                  </ul>
+                )}
+
+                {project.projectNote && <p className="mt-4 text-sm leading-6 text-slate-600">{project.projectNote}</p>}
+
                 <div className="mt-7 flex flex-wrap gap-3">
                   <a
                     href={project.githubUrl}
                     className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-4 py-2 text-sm font-medium text-slate-800 transition hover:border-blue-200 hover:text-blue-700"
                   >
                     <Globe size={16} />
-                    GitHub
+                    {project.githubLabel ?? 'GitHub'}
                   </a>
                 </div>
               </motion.article>

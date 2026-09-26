@@ -122,6 +122,27 @@ export const projects = [
     githubUrl: 'https://github.com/Prithwiii/Whisker-Watch',
     demoUrl: 'https://github.com/Prithwiii/Whisker-Watch',
   },
+  {
+    id: '05',
+    category: 'DATA',
+    title: 'Retail Sales & Business Performance Analysis',
+    description:
+      'Analyzed retail sales data in Power BI to explore revenue performance, product categories, customer purchasing patterns, gender-based revenue, discount behavior, and overall business performance.',
+    technologies: ['Power BI', 'Excel/CSV', 'Data Analysis'],
+    analysisAreas: [
+      'Revenue by product category and gender',
+      'Discount vs. purchase amount',
+      'Customer purchasing patterns',
+      'Key sales and revenue KPIs',
+      'Interactive filtering and dashboard exploration',
+    ],
+    imageUrl:
+      'https://raw.githubusercontent.com/Prithwiii/retail-sales-business-analysis-powerbi/main/images/Screenshot%202026-09-26%20210544.png',
+    imageAlt: 'Retail sales Power BI dashboard preview',
+    projectNote: 'The complete Power BI dashboard and project file are available in the GitHub repository.',
+    githubUrl: 'https://github.com/Prithwiii/retail-sales-business-analysis-powerbi',
+    githubLabel: 'View on GitHub',
+  },
 
 ]
 
